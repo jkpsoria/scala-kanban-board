@@ -1,5 +1,111 @@
-@()
 
-@main("Welcome to Play") {
-  <h1>Welcome to Play!</h1>
+
+@(todoForm: Form[TodoTask], todoLists: List[TodoTask], inProgressList: List[InProgressTask], doneTaskLists: List[DoneTask])(implicit messageProvider: MessagesProvider, request: RequestHeader)
+
+@main("Kanban Board") {
+  <h1 class="text-center board rounded">Kanban Board</h1>
+
+  <div class="container h-100">
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    New task
+  </button>
+  
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      @helper.form(action = routes.HomeController.createTodoTask()){
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Add a new task</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            @helper.inputText(todoForm("Title"), 'class -> "form-control")
+            @helper.textarea(todoForm("Description"), 'class -> "form-control")
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn todo text-white" data-bs-dismiss="modal">Close</button>
+          <input type="submit" class="btn btn-primary" value="Add task">
+        </div>
+      </div>
+        }
+    </div>
+  </div>
+
+
+  <div class="d-flex mt-3 flex-row justify-content-evenly rounded shadow p-3 mb-5 bg-body-tertiary board h-100" id="">
+    <div class="w-50 text-center rounded shadow p-3 mb-5 bg-body-tertiary" >
+
+      <h2 class="rounded todo">To-do</h2>
+      
+        @for(todo <- todoLists){
+          @helper.form(action = routes.HomeController.moveToInProgressTask(todo.id)){
+            <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded text-center tasks">
+              
+                <strong>@todo.taskTitle</strong>
+                <p>@todo.taskDesc</p>
+                <button type="submit" class="btn inProgress">In progress</button>
+              
+            </div>
+            
+          
+          }
+        }
+    </div>
+    
+    <div class="w-50 text-center rounded shadow p-3 mb-5 bg-body-tertiary" >
+      <h2 class="rounded inProgress" >In progress</h2>
+        @for(inProg <- inProgressList){
+          @helper.form(action = routes.HomeController.inProgressToDone(inProg.id)){
+            <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded text-center tasks">
+              <div>
+                <strong>@inProg.taskTitle</strong>
+              </div>
+              <div>
+                <p>@inProg.taskDesc</p>
+                <button type="submit" class="btn done">Done</button>
+              </div>
+              
+            </div>
+          }
+          
+        }
+
+    </div>
+
+    <div class="w-50 text-center rounded shadow p-3 mb-5 bg-body-tertiary" >
+      <h2 class="rounded done">Done</h2>
+      
+        @for(done <- doneTaskLists){
+          @helper.form(action = routes.HomeController.deleteDoneTask(done.id)){
+            <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded text-center tasks">
+              <div>
+                <strong>@done.taskTitle</strong>
+              </div>
+              <div>
+                <p>@done.taskDesc</p>
+                <button type="submit" class="btn todo">Remove</button>
+              </div>
+              
+            </div>
+          }
+          
+        }
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
 }

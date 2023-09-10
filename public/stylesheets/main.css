@@ -1,0 +1,25 @@
+html, body{
+    height: 100vh !important;
+    background-color: #f0eede;
+    margin: 10px;
+}
+
+.board {
+    
+    background-color: #F2ECBE !important;
+}
+
+.todo {
+    background-color: #EA4C4C !important;
+}
+.inProgress {
+    background-color: #F1C550 !important;
+}
+
+.done {
+    background-color: #A1C45A !important;
+}
+
+.tasks {
+    background-color: #feffe9 !important;
+}
