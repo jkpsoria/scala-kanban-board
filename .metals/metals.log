@@ -3350,3 +3350,13 @@ WARNING: Unmatched cancel notification for request id 1244
 2023.09.11 02:18:09 ERROR Unexpected error when compiling root: '/Users/jkpancho/Downloads/jkpancho-kanban-board/.bloop/root/bloop-bsp-clients-classes/classes-Metals-TnsAr2b5S8Wc9njD7mpb8A==/views/html/index$.class'
 2023.09.11 02:18:11 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1' (since 47m 41.113s)
 2023.09.11 02:18:11 ERROR Unexpected error when compiling root: '/Users/jkpancho/Downloads/jkpancho-kanban-board/.bloop/root/bloop-bsp-clients-classes/classes-Metals-TnsAr2b5S8Wc9njD7mpb8A==/views/html/index$.class'
+Sep 11, 2023 2:30:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1249
+Sep 11, 2023 2:30:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1250
+Sep 11, 2023 2:30:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1252
+Sep 11, 2023 2:30:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1248
+Sep 11, 2023 2:30:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1254
