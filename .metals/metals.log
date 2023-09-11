@@ -3350,6 +3350,7 @@ WARNING: Unmatched cancel notification for request id 1244
 2023.09.11 02:18:09 ERROR Unexpected error when compiling root: '/Users/jkpancho/Downloads/jkpancho-kanban-board/.bloop/root/bloop-bsp-clients-classes/classes-Metals-TnsAr2b5S8Wc9njD7mpb8A==/views/html/index$.class'
 2023.09.11 02:18:11 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1' (since 47m 41.113s)
 2023.09.11 02:18:11 ERROR Unexpected error when compiling root: '/Users/jkpancho/Downloads/jkpancho-kanban-board/.bloop/root/bloop-bsp-clients-classes/classes-Metals-TnsAr2b5S8Wc9njD7mpb8A==/views/html/index$.class'
+<<<<<<< HEAD
 Sep 11, 2023 2:30:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 1249
 Sep 11, 2023 2:30:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
@@ -3360,3 +3361,134 @@ Sep 11, 2023 2:30:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 1248
 Sep 11, 2023 2:30:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 1254
+=======
+2023.09.11 08:28:02 INFO  Started: Metals version 1.0.1 in folders '/Users/jkpancho/Downloads/kanban/scala-kanban-board' for client Visual Studio Code 1.76.0.[0m
+Sep 11, 2023 8:28:03 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 11, 2023 8:28:03 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 11, 2023 8:28:03 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 11, 2023 8:28:07 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/Users/jkpancho/Downloads/kanban/scala-kanban-board/.metals/metals (H2 2.1)
+Sep 11, 2023 8:28:07 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.091s)
+Sep 11, 2023 8:28:07 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 11, 2023 8:28:07 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.11 08:28:08 INFO  time: initialize in 5.63s[0m
+2023.09.11 08:28:09 INFO  Attempting to connect to the build server...[0m
+2023.09.11 08:28:09 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/jkpancho/.bloop/bloop.json[0m
+2023.09.11 08:28:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jkpancho/Downloads/kanban/scala-kanban-board/.metals/bsp.trace.json or /Users/jkpancho/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.09.11 08:28:11 INFO  Attempting to connect to the build server...[0m
+2023.09.11 08:28:11 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/jkpancho/.bloop/bloop.json[0m
+2023.09.11 08:28:11 INFO  Attempting to connect to the build server...[0m
+2023.09.11 08:28:11 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/jkpancho/.bloop/bloop.json[0m
+2023.09.11 08:28:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jkpancho/Downloads/kanban/scala-kanban-board/project/project/.metals/bsp.trace.json or /Users/jkpancho/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.09.11 08:28:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jkpancho/Downloads/kanban/scala-kanban-board/project/.metals/bsp.trace.json or /Users/jkpancho/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.09.11 08:28:11 ERROR No `release` file found in /opt/local/sdkman/candidates/java/8.0.382-amzn/jre - using Bloop's JVM version 1.8.0_362[0m
+2023.09.11 08:28:12 ERROR No `release` file found in /opt/local/sdkman/candidates/java/8.0.382-amzn/jre - using Bloop's JVM version 1.8.0_362[0m
+2023.09.11 08:28:11 INFO  time: Connected to build server in 2.1s[0m
+2023.09.11 08:28:11 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.09.11 08:28:12 INFO  time: Imported build in 0.19s[0m
+2023.09.11 08:28:15 INFO  running '/usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/tw/mj4kmkwx5fs1w388lp1jv8dh0000gp/T/metals7566331277505528315/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.09.11 08:28:25 INFO  [info] welcome to sbt 1.7.2 (Homebrew Java 1.8.0_362)[0m
+2023.09.11 08:28:39 INFO  time: indexed workspace in 27s[0m
+2023.09.11 08:28:45 INFO  [info] loading settings for project scala-kanban-board-build-build-build from metals.sbt ...[0m
+2023.09.11 08:28:48 INFO  [info] loading project definition from /Users/jkpancho/Downloads/kanban/scala-kanban-board/project/project/project[0m
+2023.09.11 08:28:58 INFO  [info] loading settings for project scala-kanban-board-build-build from metals.sbt ...[0m
+2023.09.11 08:28:58 INFO  [info] loading project definition from /Users/jkpancho/Downloads/kanban/scala-kanban-board/project/project[0m
+2023.09.11 08:29:05 INFO  [success] Generated .bloop/scala-kanban-board-build-build.json[0m
+2023.09.11 08:29:05 INFO  [warn] Removed stale /Users/jkpancho/Downloads/kanban/scala-kanban-board/project/project/.bloop/jkpancho-kanban-board-build-build.json[0m
+2023.09.11 08:29:05 INFO  [success] Total time: 7 s, completed 09 11, 23 8:29:05 AM[0m
+2023.09.11 08:29:09 INFO  [info] loading settings for project scala-kanban-board-build from metals.sbt,plugins.sbt ...[0m
+2023.09.11 08:29:09 INFO  [info] loading project definition from /Users/jkpancho/Downloads/kanban/scala-kanban-board/project[0m
+2023.09.11 08:29:16 INFO  [success] Generated .bloop/scala-kanban-board-build.json[0m
+2023.09.11 08:29:16 INFO  [warn] Removed stale /Users/jkpancho/Downloads/kanban/scala-kanban-board/project/.bloop/jkpancho-kanban-board-build.json[0m
+2023.09.11 08:29:16 INFO  [success] Total time: 7 s, completed 09 11, 23 8:29:17 AM[0m
+2023.09.11 08:29:25 INFO  [info] loading settings for project root from build.sbt ...[0m
+2023.09.11 08:29:25 INFO  [info]   __              __[0m
+2023.09.11 08:29:25 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2023.09.11 08:29:25 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2023.09.11 08:29:25 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2023.09.11 08:29:25 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2023.09.11 08:29:25 INFO  [info]       /_/               /____/[0m
+2023.09.11 08:29:25 INFO  [info] [0m
+2023.09.11 08:29:25 INFO  [info] Version 2.8.20 running Java 1.8.0_362[0m
+2023.09.11 08:29:25 INFO  [info] [0m
+2023.09.11 08:29:25 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2023.09.11 08:29:25 INFO  [info] https://www.playframework.com/sponsors[0m
+2023.09.11 08:29:25 INFO  [info] [0m
+2023.09.11 08:29:34 WARN  no build target for: /Users/jkpancho/Downloads/kanban/scala-kanban-board/app/models/TasksModel.scala[0m
+2023.09.11 08:29:35 INFO  [success] Generated .bloop/root-test.json[0m
+2023.09.11 08:29:35 INFO  [success] Generated .bloop/root.json[0m
+2023.09.11 08:29:35 INFO  [success] Total time: 7 s, completed 09 11, 23 8:29:35 AM[0m
+2023.09.11 08:29:35 INFO  time: ran 'sbt bloopInstall' in 1m19s[0m
+2023.09.11 08:29:35 INFO  Disconnecting from Bloop session...[0m
+2023.09.11 08:29:35 INFO  Shut down connection with build server.[0m
+2023.09.11 08:29:35 INFO  Shut down connection with build server.[0m
+2023.09.11 08:29:35 INFO  Shut down connection with build server.[0m
+2023.09.11 08:29:35 INFO  Attempting to connect to the build server...[0m
+2023.09.11 08:29:35 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/jkpancho/.bloop/bloop.json[0m
+2023.09.11 08:29:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jkpancho/Downloads/kanban/scala-kanban-board/.metals/bsp.trace.json or /Users/jkpancho/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.09.11 08:29:35 INFO  Attempting to connect to the build server...[0m
+2023.09.11 08:29:35 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/jkpancho/.bloop/bloop.json[0m
+2023.09.11 08:29:35 INFO  Attempting to connect to the build server...[0m
+2023.09.11 08:29:35 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/jkpancho/.bloop/bloop.json[0m
+2023.09.11 08:29:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jkpancho/Downloads/kanban/scala-kanban-board/project/project/.metals/bsp.trace.json or /Users/jkpancho/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.09.11 08:29:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jkpancho/Downloads/kanban/scala-kanban-board/project/.metals/bsp.trace.json or /Users/jkpancho/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.09.11 08:29:35 INFO  time: Connected to build server in 0.24s[0m
+2023.09.11 08:29:35 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.09.11 08:29:35 INFO  time: Imported build in 0.25s[0m
+2023.09.11 08:29:40 INFO  time: code lens generation in 2.56s[0m
+2023.09.11 08:29:50 INFO  time: indexed workspace in 14s[0m
+2023.09.11 08:29:50 INFO  compiling root (8 scala sources and 1 java source)[0m
+Sep 11, 2023 8:29:55 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.09.11 08:30:10 INFO  time: compiled root in 19s[0m
+2023.09.11 08:30:10 INFO  compiling root-test (1 scala source)[0m
+2023.09.11 08:30:19 INFO  time: compiled root-test in 8.4s[0m
+2023.09.11 08:34:22 INFO  Shutting down server[0m
+2023.09.11 08:34:22 INFO  shutting down Metals[0m
+2023.09.11 08:34:22 INFO  Shut down connection with build server.[0m
+2023.09.11 08:34:22 INFO  Shut down connection with build server.[0m
+2023.09.11 08:34:22 INFO  Shut down connection with build server.[0m
+2023.09.11 08:34:22 INFO  Exiting server[0m
+2023.09.11 08:35:10 INFO  Started: Metals version 1.0.1 in folders '/Users/jkpancho/Downloads/kanban/scala-kanban-board' for client Visual Studio Code 1.76.0.
+Sep 11, 2023 8:35:11 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 11, 2023 8:35:11 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 11, 2023 8:35:11 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 11, 2023 8:35:13 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/Users/jkpancho/Downloads/kanban/scala-kanban-board/.metals/metals (H2 2.1)
+Sep 11, 2023 8:35:13 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.221s)
+Sep 11, 2023 8:35:13 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 11, 2023 8:35:13 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.11 08:35:14 INFO  time: initialize in 3.18s
+2023.09.11 08:35:18 INFO  Attempting to connect to the build server...
+2023.09.11 08:35:18 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/jkpancho/.bloop/bloop.json
+2023.09.11 08:35:19 INFO  skipping build import with status 'Installed'
+2023.09.11 08:35:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jkpancho/Downloads/kanban/scala-kanban-board/.metals/bsp.trace.json or /Users/jkpancho/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.09.11 08:35:20 INFO  Attempting to connect to the build server...
+2023.09.11 08:35:20 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/jkpancho/.bloop/bloop.json
+2023.09.11 08:35:20 INFO  Attempting to connect to the build server...
+2023.09.11 08:35:20 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/jkpancho/.bloop/bloop.json
+2023.09.11 08:35:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jkpancho/Downloads/kanban/scala-kanban-board/project/.metals/bsp.trace.json or /Users/jkpancho/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.09.11 08:35:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jkpancho/Downloads/kanban/scala-kanban-board/project/project/.metals/bsp.trace.json or /Users/jkpancho/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.09.11 08:35:20 INFO  time: Connected to build server in 1.98s
+2023.09.11 08:35:20 INFO  Connected to Build server: Bloop v1.5.8
+2023.09.11 08:35:33 INFO  no build target found for /Users/jkpancho/Downloads/kanban/scala-kanban-board/app/models/TasksModel.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.11 08:35:35 INFO  time: Imported build in 0.24s
+2023.09.11 08:35:35 INFO  time: code lens generation in 16s
+2023.09.11 08:35:51 INFO  time: indexed workspace in 16s
+2023.09.11 08:40:14 INFO  compiling root (1 scala source)
+2023.09.11 08:40:27 INFO  time: compiled root in 12s
+2023.09.11 08:42:29 INFO  compiling root (1 scala source)
+2023.09.11 08:42:35 INFO  time: compiled root in 5.19s
+>>>>>>> da553fa234dd29e82f4a3062d7201af7d2450e2a

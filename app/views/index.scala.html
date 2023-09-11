@@ -35,7 +35,7 @@
 
 
   <div class="d-flex mt-3 flex-row justify-content-evenly rounded shadow p-3 mb-5 bg-body-tertiary board h-100" id="">
-    <div class="w-50 text-center rounded shadow p-3 mb-5 bg-body-tertiary" >
+    <div class="w-50 text-center rounded shadow p-3 mb-5 bg-body-tertiary overflow-auto" >
 
       <h2 class="rounded todo">To-do</h2>
       
@@ -54,7 +54,7 @@
         }
     </div>
     
-    <div class="w-50 text-center rounded shadow p-3 mb-5 bg-body-tertiary" >
+    <div class="w-50 text-center rounded shadow p-3 mb-5 bg-body-tertiary overflow-auto" >
       <h2 class="rounded inProgress" >In progress</h2>
         @for(inProg <- inProgressList){
           @helper.form(action = routes.HomeController.inProgressToDone(inProg.id)){
@@ -74,7 +74,7 @@
 
     </div>
 
-    <div class="w-50 text-center rounded shadow p-3 mb-5 bg-body-tertiary" >
+    <div class="w-50 text-center rounded shadow p-3 mb-5 bg-body-tertiary overflow-auto" >
       <h2 class="rounded done">Done</h2>
       
         @for(done <- doneTaskLists){
